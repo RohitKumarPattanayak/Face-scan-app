@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332594486925",
+    "project_id": "face-scan-users",
+    "storage_bucket": "face-scan-users.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332594486925:android:126f75e268800f56ff8cc4",
+        "android_client_info": {
+          "package_name": "com.example.face_scan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332594486925-4hh4hkfi63l823h9f5gjn7sthb5j7dk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBli_fmsvn1kv3Cmuu6w7zl7Hdoq3ibcsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332594486925-4hh4hkfi63l823h9f5gjn7sthb5j7dk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

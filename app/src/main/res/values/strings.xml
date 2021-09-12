@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Face scan</string>
+    <!--</resources>-->
+    <!--<resources>-->
+    <string name="signup">
+      <u>Sign up</u>
+    </string>
+    <string name="login">
+      <u>Log in</u>
+    </string>
+</resources>

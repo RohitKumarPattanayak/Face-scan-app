@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_login"
+    tools:context=".Sign_up">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="0px"
+        android:layout_marginTop="300px"
+        android:background="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#7ABA2F"
+        android:layout_marginTop="20px"
+        android:text="Register"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:height="4px"
+        android:background="#A6A4A4"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170px"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/user_full_name"
+                android:layout_width="match_parent"
+                android:textSize="55px"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#8C8989"
+                android:drawableRight="@drawable/ic_full_name"
+                android:hint="Fullname                                  " />
+            <EditText
+                android:id="@+id/user_email"
+                android:layout_width="match_parent"
+                android:textSize="55px"
+                android:textColor="#8C8989"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_email"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:textSize="55px"
+                android:textColor="#8C8989"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_user_name"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/user_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textPassword"
+                android:textSize="55px"
+                android:drawableRight="@drawable/ic_pass_2"
+                android:textColor="#777575"
+                android:hint="Password" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:onClick="user_register"
+        android:layout_marginTop="100px"
+        android:backgroundTint="#88C83D"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already registered ?"
+            android:textSize="40px"/>
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:onClick="Login_link"
+            android:textSize="40px"
+            android:text="@string/login"
+            android:textColor="#2196F3"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="42dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:indeterminateTint="#4CAF50"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
